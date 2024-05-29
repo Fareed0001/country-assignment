@@ -1,0 +1,73 @@
+.header-container {
+    background-color: blue;
+    color: white;
+    padding: 1%;
+}
+
+.header-container p {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 5%;
+}
+
+.country-list-div {
+    padding: 3% 5% 5%;
+}
+
+.card .mb-3 {
+    width: 50%;
+}
+
+.country-landmark {
+    font-size: 4rem;
+}
+
+.card-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.country-checkbox {
+    margin: 20% 50% 0;
+}
+
+.selection-button-div {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.selection-button-div .selection-button {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 479px) {
+    /* start of phone styles */
+
+    .header-container {
+        padding: 5% 1% 1%;
+    }
+
+    .header-container p {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .country-list-div {
+        padding: 5% 5% 18%;
+    }
+
+    .country-checkbox {
+        margin: 80% auto auto;
+    }
+
+    .selection-button-div .selection-button {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+}
